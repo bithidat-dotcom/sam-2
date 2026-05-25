@@ -60,7 +60,13 @@ app.post("/api/orders", async (req, res) => {
       }
     } catch (err: any) {
       console.error("Supabase Insertion Error:", err.message);
-      // We still return success if the order reached here, but log the error
+      if (err.hint) console.error("Hint:", err.hint);
+      if (err.details) console.error("Details:", err.details);
+      
+      // If the specific "name" column error occurs, log a clear warning
+      if (err.message.includes("column \"name\"")) {
+        console.error("CRITICAL: The 'orders' table is missing the 'name' column in Supabase.");
+      }
     }
   } else {
     console.warn("Supabase client not initialized - order not persisted to DB.");
