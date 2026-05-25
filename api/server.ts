@@ -41,6 +41,7 @@ app.post("/api/orders", async (req, res) => {
         .insert([
           { 
             name: customerDetails.name,
+            email: customerDetails.email,
             whatsapp: customerDetails.whatsappNumber,
             location: customerDetails.location,
             delivery_method: customerDetails.deliveryMethod,
