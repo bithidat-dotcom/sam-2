@@ -1,0 +1,8 @@
+{
+  "name": "Remix: Sam Watch",
+  "description": "Premium watch e-commerce platform with secure checkout and discount management.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
