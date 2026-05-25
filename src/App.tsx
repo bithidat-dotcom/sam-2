@@ -177,12 +177,12 @@ export default function App() {
           <div className="flex items-center gap-4">
             <img 
               src="https://i.pinimg.com/736x/e4/2b/d2/e42bd286782b812b1aba81fcb99092d9.jpg" 
-              alt="Sam Watch" 
+              alt="Quats_BD" 
               className="w-12 h-12 rounded-full border border-gold/10"
             />
             <div className="text-left">
-              <span className="font-serif text-xl tracking-tighter text-zinc-900 border-b border-gold/20">sam <span className="text-gold italic">Watch</span></span>
-              <p className="text-zinc-400 text-[10px] mt-2 uppercase tracking-widest">© 2026 Sam Watch International. Bangladesh.</p>
+              <span className="font-italianno text-2xl tracking-tighter text-zinc-900 border-b border-gold/20">Quats_BD<span className="text-gold italic">.com</span></span>
+              <p className="text-zinc-400 text-[10px] mt-2 uppercase tracking-widest">© 2026 Quats_BD.com International. Bangladesh.</p>
             </div>
           </div>
           <div className="flex gap-10 text-[10px] font-bold text-zinc-400 uppercase tracking-[0.2em]">

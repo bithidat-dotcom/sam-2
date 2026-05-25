@@ -17,11 +17,11 @@ export default function Header({ cartCount, onOpenCart }: HeaderProps) {
           <div className="flex items-center cursor-pointer group gap-3">
             <img 
               src="https://i.pinimg.com/736x/e4/2b/d2/e42bd286782b812b1aba81fcb99092d9.jpg" 
-              alt="Sam Watch Logo" 
+              alt="Quats_BD.com Logo" 
               className="w-10 h-10 object-contain rounded-full border border-gold/20"
             />
-            <span className="font-serif text-2xl tracking-tighter text-zinc-900">
-              sam <span className="text-gold italic text-3xl ml-1">Watch</span>
+            <span className="font-italianno text-3xl tracking-tighter text-zinc-900">
+              Quats_BD<span className="text-gold italic text-4xl ml-1">.com</span>
             </span>
           </div>
 
